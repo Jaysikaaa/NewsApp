@@ -2,7 +2,7 @@ Instructions for Running the Project
 
 Steps:
 1.	Clone the project repository:
-•	git clone https://github.com/Jaysikaaa/News-Articles-Project.git
+•	git clone https://github.com/Jaysikaaa/NewsApp.git
 2.	Navigate to the project directory:
 •	cd News-Articles-Project
 3.	Start the development server:
