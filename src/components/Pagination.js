@@ -9,7 +9,7 @@ setPage(prev => prev + 1)
     }
   return (
     <div className='page' >
-      <button onClick={prevClickHandler}>Prev</button>
+      <button onClick={prevClickHandler}>Previous</button>
       <span></span>
       <button onClick={nextClickHandler}>Next</button>
     </div>
