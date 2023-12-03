@@ -1,0 +1,37 @@
+Instructions for Running the Project
+
+Steps:
+1.	Clone the project repository:
+•	git clone https://github.com/Jaysikaaa/News-Articles-Project.git
+2.	Navigate to the project directory:
+•	cd News-Articles-Project
+3.	Start the development server:
+•	Npm start
+4.	Open your browser and visit http://localhost:3000 to view the application
+
+
+High – Level write up on your approach
+
+The News Article project is structured as a React application with the following components:
+
+•	App  Component:
+Manages the state for search, page, and the fetched news articles.
+Passes down search, page, and news articles as props to child components.
+•	Search Component: 
+Renders an input field to search for news articles.
+Updates the search state in the App component based on user input.
+•	Pagination Component:
+Renders buttons for "Prev" and "Next" to navigate through pages.
+Updates the page state in the App component.
+•	NewsArticleList Component:
+Receives news articles as props and renders the list of articles.
+Each article item contains a button triggering a ContextMenu component.
+•	ContextMenu Component:
+Renders the context menu with "Edit" and "Delete" options.
+On selection, triggers an alert with the corresponding action and article ID
+
+Assumptions in the Solution
+
+•	Mock data is used for news articles generation, real API is not called.
+•	Search and pagination are on front-end side.
+•	The context menu in the ContextMenu component triggers an alert for Edit or Delete purposes. In a real application, we would perform relevant actions based on user selections
