@@ -3,7 +3,7 @@ import './App.css'
 import { useEffect, useState } from "react";
 import Pagination from "./components/Pagination";
 import NewsArticle from "./components/NewsArticle";
-import getNewsArticle from "./getNewsArticle";
+import getNewsArticles from "./getNewsArticle";
 
 function App() {
   const [ page, setPage] = useState(0);
@@ -12,7 +12,7 @@ function App() {
   
 useEffect(()=>{
   const fetchData = async () => {
-    const data = await getNewsArticle(page, search);
+    const data = await getNewsArticles(page, search);
     setNewsArticles(data)
   };
 
